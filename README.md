@@ -4,7 +4,7 @@
 
 Bypass URL shortener websites
 
-## Install
+## Install:
 
 ```bash
 npm install --save node-bypasser
@@ -23,12 +23,12 @@ w.decrypt(function(err, result) {
 });
 ```
 
-The output will be
+The output will be:
 ```
 Decrypted: https://github.com/matteocontrini/node-bypasser/
 ```
 
-## Testing
+## Testing:
 
 ```bash
 npm run test
@@ -38,7 +38,7 @@ npm run test
 
 Unit tests may occasionally fail when there are network connectivity issues or when services' servers give bad temporary responses.
 
-## Supported websites
+## Supported websites:
 * Adf.ly
 * Linkbucks.com (all alternative domains)
 * Shorte.st (sh.st, u2ks.com, jnw0.com, digg.to, dh10thbvu.com)
